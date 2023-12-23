@@ -72,7 +72,7 @@ Please find here my implementation of a Double linked list in C: source code
 
 Something is going wrong….
 
-$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 main.c free_dlistint.c print_dlistint.c add_dnodeint_end.c delete_dnodeint_at_index.c -o delete_dnodeint
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 main.c free_dlistint.c print_dlistint.c add_dnodeint_end.c delete_dnodeint_at_index.c -o delete_dnodeint
 $ ./delete_dnodeint 
 0
 1
